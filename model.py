@@ -88,7 +88,7 @@ def generate(result_id, messages):
             continue
 
         payload = {
-            "model": "anthropic/claude-3.5-sonnet",
+            "model": "anthropic/claude-3.7-sonnet",
             "messages": messages,
             "temperature": 1.0,
             "provider": {
